@@ -22,16 +22,25 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import  Search  from './pages/FrameworkSearch';
+import Router from './Router';
 
-const App: React.FC = () => (
-  <IonApp>
-    <IonReactRouter>
-      <IonRouterOutlet>
-        <Route path="/home" component={Home} exact={true} />
-        <Route exact path="/" render={() => <Redirect to="/home" />} />
-      </IonRouterOutlet>
-    </IonReactRouter>
-  </IonApp>
+const App: React.FC = () => (  
+  // <IonApp className="pankaj-body">
+  //   <IonReactRouter>
+  //     <IonRouterOutlet>
+  //       <Route path="/home" component={Home} exact={true} />
+  //       <Route exact path="/" render={() => <Redirect to="/home" />} />
+  //       <Route path="/search" component={Search} ></Route>       
+  //     </IonRouterOutlet>
+  //   </IonReactRouter>
+  // </IonApp>
+    <Router>
+      <Home />
+      <Search />
+    </Router>
+// config and set global context
+
 );
 
 export default App;

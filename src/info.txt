@@ -1,0 +1,10 @@
+// how to use props in React-with-typescripts
+https://medium.com/innovation-and-technology/deciphering-typescripts-react-errors-8704cc9ef402
+// mock API
+https://hn.algolia.com/api/v1/search
+// map vs flatMap
+https://medium.com/@daveford/map-versup-flatmap-14780ab01d2b
+flatMap: A flatMap is used to flatten an observable of observables
+into a single observable
+// when to use & how to use Context in React
+https://reactjs.org/docs/context.html
